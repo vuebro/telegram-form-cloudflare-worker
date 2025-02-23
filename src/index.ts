@@ -57,7 +57,7 @@ export default {
 						parse_mode = "Markdown",
 						text = [
 							...Object.entries({ ...data, url }).map(
-								([key, value]) => `${key}:\n\`\`\`\n${value}\n\`\`\`\n`
+								([key, value]) => `${key}\n\`\`\`\n${value}\n\`\`\`\n`
 							),
 						].join(`\n`),
 						inline_keyboard = [[{ text: url, url }]],
