@@ -33,21 +33,11 @@ Give it admin permission and send `/id` in the group. You will get your group id
 
 ### Step 1:
 
-First of all login to cloudflare and make an account if you don't have one.
-
-[![portfolio](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)](https://www.cloudflare.com/)
-
-### Step 2:
-
 Head towards Workers & Pages section and Create a new worker
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/vues3/telegram-form-cloudflare-worker)
 
-### Step 3:
-
-Give a name to your worker, it will be the final link that will be necessary later.
-
-### Step 4:
+### Step 2:
 
 click on Continue to project and head towards Setting > Variables > Add Variables.
 
@@ -64,10 +54,6 @@ and press "Deploy".
 ### Step 5:
 
 Open the worker url and keep it safe for later use.
-
-### Step 6:
-
-Use the worker link in your website, I have given a simple format in the repo as `form.txt`
 
 ### And, Its done. Lets hop into the next step.
 
