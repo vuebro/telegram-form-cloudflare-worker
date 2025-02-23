@@ -56,7 +56,6 @@ export default {
 					const headers = { "Content-Type": "application/json" },
 						parse_mode = "Markdown",
 						text = [
-							url,
 							...Object.entries(data).map(
 								([key, value]) => `${key}:\n\`\`\`\n${value}\n\`\`\``
 							),
