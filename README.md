@@ -1,6 +1,6 @@
 # Cloudflare based Telegram Form Submission
 
-This is a simple Cloudflare worker script that can submitt html form data with help of Cloudflare worker and Telegram bot api.
+This is a simple Cloudflare worker script that can submit html form data with help of Cloudflare worker and Telegram bot api.
 
 ## What You need to get started:
 

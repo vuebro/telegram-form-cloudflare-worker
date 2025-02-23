@@ -59,7 +59,7 @@ export default {
 							...Object.entries(data).map(
 								([key, value]) => `${key}\n\`\`\`\n${value}\n\`\`\``
 							),
-							`\n${url}\n`,
+							url,
 						].join(`\n`),
 						inline_keyboard = [[{ text: url, url }]],
 						reply_markup = { inline_keyboard },
