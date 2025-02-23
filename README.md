@@ -41,6 +41,8 @@ First of all login to cloudflare and make an account if you don't have one.
 
 Head towards Workers & Pages section and Create a new worker
 
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/vues3/telegram-form-cloudflare-worker)
+
 ### Step 3:
 
 Give a name to your worker, it will be the final link that will be necessary later.
