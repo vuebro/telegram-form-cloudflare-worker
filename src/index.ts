@@ -57,7 +57,7 @@ export default {
 						parse_mode = "Markdown",
 						text = [
 							...Object.entries(data).map(
-								([key, value]) => `${key}: \`${value}\``
+								([key, value]) => `${key}: \`\`\`\n${value}\n\`\`\``
 							),
 							url,
 						].join(`\n`),
