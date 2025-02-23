@@ -56,9 +56,10 @@ export default {
 					const headers = { "Content-Type": "application/json" },
 						parse_mode = "Markdown",
 						text = [
-							...Object.entries({ ...data, url }).map(
-								([key, value]) => `${key}\n\`\`\`\n${value}\n\`\`\`\n`
+							...Object.entries(data).map(
+								([key, value]) => `${key}\n\`\`\`\n${value}\n\`\`\``
 							),
+							`\n${url}\n`,
 						].join(`\n`),
 						inline_keyboard = [[{ text: url, url }]],
 						reply_markup = { inline_keyboard },
