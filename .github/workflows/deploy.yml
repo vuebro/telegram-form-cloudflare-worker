@@ -1,7 +1,5 @@
 name: Deploy Worker
 on:
-  push:
-  pull_request:
   repository_dispatch:
 jobs:
   deploy:
@@ -14,3 +12,4 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           wranglerVersion: "latest"
+          command: wrangler deploy --name telegram-form
