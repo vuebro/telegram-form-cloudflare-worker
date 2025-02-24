@@ -2,16 +2,6 @@
 
 This is a simple Cloudflare worker script that can submit html form data with help of Cloudflare worker and Telegram bot api.
 
-## What You need to get started:
-
-To run this project, you will need a Cloudflare account and have to add the following environment variables to your Cloudflare workers settings.
-
-`TELEGRAM_API_KEY` = "You get it from @Botfather"
-
-`TELEGRAM_CHAT_ID` = "Your telegram Group id you get using @MissRose_bot"
-
-`ALLOWED_ORIGIN` = "Your website url"
-
 ## Setting up Telegram
 
 ### Step 1:
