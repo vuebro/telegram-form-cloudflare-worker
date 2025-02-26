@@ -28,6 +28,10 @@ Open Botfather and create a new bot and you will get an API key
 
 `ALLOWED_ORIGIN` = "Your website url"
 
+#### Optional
+
+`STATUS_LOCALE` = "Can be one from the list: de-de, en-us, ja-jp, ko-kr, zh-cn, ru-ru"
+
 Now you can use your worker in that way:
 
 `<form action="https://yourcloudflare.workers.dev/" method="POST">`
