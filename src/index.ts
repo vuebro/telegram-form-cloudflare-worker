@@ -1,26 +1,21 @@
-const message = {
-  200: "Сообщение отправлено",
-  403: "Потеряно",
-  405: "Метод не разрешен",
-  415: "Неподдерживаемый тип",
-  500: "Ошибка отправки сообщения",
-};
-
+import { status as getStatus } from "@http-util/status-i18n";
 export default {
   async fetch(
     request: Request,
     {
       ALLOWED_ORIGIN: url,
+      STATUS_LOCALE: locale = "en-us",
       TELEGRAM_API_KEY: telegramToken,
       TELEGRAM_CHAT_ID: chat_id,
     }: {
       ALLOWED_ORIGIN: string;
+      STATUS_LOCALE?: string;
       TELEGRAM_API_KEY: string;
       TELEGRAM_CHAT_ID: string;
     },
   ): Promise<Response> {
     const getResponse = (status: number) =>
-        new Response(message[status as keyof object], {
+        new Response(getStatus(status, locale), {
           headers: { "Access-Control-Allow-Origin": url },
           status,
         }),
