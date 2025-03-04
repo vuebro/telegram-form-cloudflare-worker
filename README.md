@@ -10,11 +10,7 @@ Press the button to deploy the worker
 
 ## 2. Set the environment variables
 
-Head towards Workers & Pages section in the Cloudflare account, open
-
-`telegram-form > Setting > Variables and Secrets`
-
-and add the following Variables:
+Head towards Workers & Pages section in the Cloudflare account, open `telegram-form > Setting > Variables and Secrets` and add the following Variables:
 
 `TELEGRAM_API_KEY` = "You get it from @Botfather"
 
