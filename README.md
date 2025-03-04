@@ -12,9 +12,7 @@ Press the button to deploy the worker
 
 Head towards Workers & Pages section in the Cloudflare account, open
 
-```
-telegram-form > Setting > Variables and Secrets
-```
+`telegram-form > Setting > Variables and Secrets`
 
 and add the following Variables:
 
