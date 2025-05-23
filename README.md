@@ -6,7 +6,7 @@ This is a simple Cloudflare worker script that can submit html form data with he
 
 Press the button to deploy the worker
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/vues3/telegram-form-cloudflare-worker)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/vuebro/telegram-form-cloudflare-worker)
 
 ## 2. Set the environment variables
 
@@ -41,7 +41,7 @@ Now you can use the worker in that way:
 
 > [!NOTE]
 >
-> <img src="https://vues3.ru/images/drakkar.svg" width="250"/>
+> <img src="https://vuebro.ru/images/drakkar.svg" width="250"/>
 >
 > Made on the shores of the Baltic Sea
 
