@@ -1,7 +1,5 @@
 {
   "name": "telegram-form-cloudflare-worker",
-  "version": "0.0.1",
-  "private": true,
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
